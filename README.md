@@ -1,5 +1,20 @@
-Tweetian
-========
+Neo_twitter
+===========
+
+Neo_twitter should be based on the Tweetian backend. (This step may change depending on contribution).
+It's a new Twitter client for N9, with a rebuilt UI and graphic design. The interface will be completely redesigned in order to match the nokia UX Guidelines, and update to the actual Twitter features.
+
+The app is upcoming in 2019, and it's now (slowly) written in QT4 / QT quick as possible. 
+If you're hurry to see how will be the finish app, see the navigable Adobe XD mockup:
+https://xd.adobe.com/view/e8b2e36b-001f-4641-5445-eafeca47a3d4-9e83/
+
+Stay tuned N9 owner.
+
+
+
+
+Here follow the original Twieetian infos
+----------------------------------------
 
 Tweetian is a feature-rich Twitter app for smartphones, developed using Qt/QML.
 The backend of Tweetian is mostly written in JavaScript (database handling, API calls, parsing JSON)
