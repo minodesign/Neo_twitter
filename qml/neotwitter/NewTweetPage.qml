@@ -27,7 +27,7 @@ Page {
                    }
                    ToolIcon {
                        iconId: "icon-m-toolbar-new-chat"
-                       onClicked: pageStack.push(newTweetPage)
+                       onClicked: pageStack.push(notificationPage)
                    }
                    ToolIcon {
                        iconId: "icon-m-toolbar-view-menu"
@@ -84,23 +84,8 @@ Page {
         }
     }
 
-    Flickable {
-        id: flickable1
-        width: parent.width
-        height: parent.height
-        contentHeight: 1238
-        contentWidth: 480
-        z: 10
-        Image {
-            id: placeholderhome
-            width: 480
-            height: 1238
-            fillMode: Image.Stretch
-            source: "asset/images/home_placeholder.jpg"
-        }
-    }
 
-    Rectangle{
+    Rectangle {
          id: tweetbutton
          x: 0; y: 0
          z: 50
@@ -114,32 +99,26 @@ Page {
          anchors.right: parent.right
          anchors.rightMargin: 18
          Image {
-             width: 45
-             height: 45
+             width: 80
+             height: 80
              smooth: true
              sourceSize.height: 80
              sourceSize.width: 80
              fillMode: Image.Stretch
              anchors.horizontalCenter: parent.horizontalCenter
              anchors.verticalCenter: parent.verticalCenter
-             source: "asset/images/icon-newtweet.svg"
-
+             source: "asset/images/icon-campanella.png"
             }
-
          MouseArea {
              id: tweetbuttonarea
              width: parent.width
              height: parent.height
-             hoverEnabled: false
-                 onPressed: {
-                     // increase the x-position on click
-                     parent.rotation = 8
-                     parent.scale = 0.9
-                 }
-                onReleased: {
-                    parent.rotation = 0
-                    parent.scale = 1
-                }
+             onPressed: {
+                 // increase the x-position on click
+                 parent.rotation = 10
+                 parent.width = 0.8
+             }
          }
     }
+
 }

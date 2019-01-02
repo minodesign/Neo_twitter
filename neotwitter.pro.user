@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by Qt Creator 2.4.1, 2019-01-01T22:42:58. -->
+<!-- Written by Qt Creator 2.4.1, 2019-01-02T22:16:27. -->
 <qtcreator>
  <data>
   <variable>ProjectExplorer.Project.ActiveTarget</variable>
@@ -177,10 +177,12 @@
        <value type="QString">/Users/giovanniminelli/Documents/GitHub/neo_twitter/neotwitter-build-harmattan-Harmattan_Target_-_QEmu_PR1_2__Qt_SDK__Release/neotwitter_0.0.1_armel.deb</value>
        <value type="QString">/Users/giovanniminelli/Documents/GitHub/neo_twitter/neotwitter-build-harmattan-Harmattan_Target_-_QEmu_PR1_2__Qt_SDK__Release/neotwitter_0.0.1_armel.deb</value>
        <value type="QString">/Users/giovanniminelli/Documents/GitHub/neo_twitter/neotwitter-build-harmattan-Harmattan_Target_-_QEmu_PR1_2__Qt_SDK__Release/neotwitter_0.0.1_armel.deb</value>
+       <value type="QString">/Users/giovanniminelli/Documents/GitHub/neo_twitter/neotwitter-build-harmattan-Harmattan_Target_-_QEmu_PR1_2__Qt_SDK__Release/neotwitter_0.0.1_armel.deb</value>
       </valuelist>
       <valuelist type="QVariantList" key="Qt4ProjectManager.MaemoRunConfiguration.LastDeployedHosts">
        <value type="QString">192.168.1.86</value>
        <value type="QString">192.168.1.65</value>
+       <value type="QString">192.168.1.101</value>
        <value type="QString">192.168.1.150</value>
        <value type="QString">192.168.1.240</value>
       </valuelist>
@@ -189,10 +191,12 @@
        <value type="QString"></value>
        <value type="QString"></value>
        <value type="QString"></value>
+       <value type="QString"></value>
       </valuelist>
       <valuelist type="QVariantList" key="Qt4ProjectManager.MaemoRunConfiguration.LastDeployedTimes">
        <value type="QDateTime">2019-01-01T22:29:59</value>
        <value type="QDateTime">2018-11-22T22:21:04</value>
+       <value type="QDateTime">2019-01-02T22:04:23</value>
        <value type="QDateTime">2018-11-29T22:25:52</value>
        <value type="QDateTime">2018-12-15T23:30:43</value>
       </valuelist>
@@ -206,7 +210,7 @@
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Build Debian Package and Install to Harmattan Device</value>
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">DeployToHarmattan</value>
-    <value type="qulonglong" key="Qt4ProjectManager.MaemoRunConfiguration.DeviceId">13</value>
+    <value type="qulonglong" key="Qt4ProjectManager.MaemoRunConfiguration.DeviceId">14</value>
    </valuemap>
    <value type="int" key="ProjectExplorer.Target.DeployConfigurationCount">1</value>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.0">

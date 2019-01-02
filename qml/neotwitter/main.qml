@@ -22,4 +22,8 @@ PageStackWindow {
         id: messagesPage
     }
 
+     NewTweetPage{
+        id: newTweetPage
+    }
+
 }
